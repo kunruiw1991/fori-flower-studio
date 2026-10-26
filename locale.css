@@ -1,0 +1,6 @@
+/* Shared language control; the logo and return link stay in place. */
+.utility-panel .language-control{display:flex;align-items:center;border-top:1px solid #ddd;margin-top:8px;padding-top:10px;width:100%}
+.utility-panel .language-control select{width:100%;max-width:100%;min-height:44px;background:transparent;color:inherit;border:1px solid #ccc;padding:6px 8px;font:inherit}
+html:not([data-language="default"])[data-language] .en-caption,html:not([data-language="default"])[data-language] .en-inline{display:none}
+html:not([data-language="default"])[data-language] button,html:not([data-language="default"])[data-language] label{overflow-wrap:anywhere}
+.language-control .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}

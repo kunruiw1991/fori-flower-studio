@@ -1,0 +1,13 @@
+/* One white, full-width top surface. Preserve each existing logo and return link. */
+html body.has-utility-menu>header{width:100%;max-width:none;margin-inline:0;background:#fff;color:#393939;border-bottom-color:#dedede;box-shadow:none;clip-path:none}
+html body.has-utility-menu>header .brand img{filter:none;mix-blend-mode:multiply}
+html body.has-utility-menu>header .return{color:#393939}
+html body.has-utility-menu>header .return span{color:#7f7f7f}
+html body>.utility-menu{color:#737373}
+html body>.utility-menu>summary{background:#fff;border-color:#7772;color:#737373}
+html body>.utility-menu .utility-panel{background:#fffffff5;border-color:#ddd;color:#737373;color-scheme:light}
+html body>.utility-menu .utility-panel>a,html body>.utility-menu .utility-panel>#sound-toggle{color:#737373}
+html body>.utility-menu .utility-panel>#sound-toggle{border-color:#ddd}
+/* Compensate for removed outer margins without relocating controls. */
+@media(min-width:1400px){html body:not(.gallery-dark-top)>header:has(.brand){padding-left:calc(6vw + (100vw - 1400px)/2);padding-right:calc(80px + (100vw - 1400px)/2)!important}}
+@media(min-width:1500px){html body.has-utility-menu>header.hall-header{padding-left:calc(5vw + (100vw - 1500px)/2);padding-right:calc(80px + (100vw - 1500px)/2)!important}}
